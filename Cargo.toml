@@ -1,5 +1,5 @@
 [package]
-name = "blackbird"
+name = "bluebird"
 version = "0.1.0"
 authors = ["Conor Hoekstra"]
 edition = "2021"
