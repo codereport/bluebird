@@ -1,4 +1,4 @@
-# <p align="center">`iterx`</p>
+# <p align="center">`bluebird`</p>
 
 <p align="center">
     <a href="https://github.com/codereport/bluebird/issues" alt="contributions welcome">
