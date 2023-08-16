@@ -17,6 +17,8 @@
 
 `bluebird` is a [Rust](https://rust-lang.org/) library that provides SKI combinators from [Combinatory Logic](https://combinatorylogic.com/) and common unary and binary functions that are often used with these combinators. It is the spritual equivalent of the C++ [`blackbird` library](https://github.com/codereport/blackbird).
 
+![image](https://github.com/codereport/bluebird/assets/36027403/16525f2e-58c1-4beb-9bc5-4606702d8c9b)
+
 How to use with Cargo:
 ```toml
 [dependencies]
