@@ -1,6 +1,7 @@
 use std::cmp;
 
 #[allow(unused_macros)]
+#[macro_export]
 macro_rules! phi1 {
     ($a:expr, $b:expr, $c:expr) => {{
         |x: i32, y: i32| {
@@ -17,12 +18,12 @@ type BinOp = fn(i32, i32) -> i32;
 
 nofmt::pls! {
 
-    const _MAX_:  BinOp    = |x: i32, y: i32| cmp::max(x, y);
-    const _MIN_:  BinOp    = |x: i32, y: i32| cmp::min(x, y);
-    const _MUL_:  BinOp    = |x: i32, y: i32| x * y;
-    const _PLUS_: BinOp    = |x: i32, y: i32| x + y;
-    const _L_:    BinOp    = |x: i32, _: i32| x;
-    const _R_:    BinOp    = |_: i32, y: i32| y;
+    pub const _MAX_:  BinOp    = |x: i32, y: i32| cmp::max(x, y);
+    pub const _MIN_:  BinOp    = |x: i32, y: i32| cmp::min(x, y);
+    pub const _MUL_:  BinOp    = |x: i32, y: i32| x * y;
+    pub const _PLUS_: BinOp    = |x: i32, y: i32| x + y;
+    pub const _L_:    BinOp    = |x: i32, _: i32| x;
+    pub const _R_:    BinOp    = |_: i32, y: i32| y;
 }
 
 #[cfg(test)]
