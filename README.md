@@ -22,7 +22,7 @@
 How to use with Cargo:
 ```toml
 [dependencies]
-bluebird = "0.2.0"
+bluebird = "0.3.0"
 ```
 How to use in your crate:
 ```rs
